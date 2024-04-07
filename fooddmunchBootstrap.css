@@ -1,0 +1,422 @@
+
+
+.container-fluid>img{height: 75px; width: 75px;
+    
+margin-left: 10px;}
+
+
+
+
+
+    
+
+
+.collapse{
+    padding-right: 100px;
+    
+}
+
+
+.nav-item{
+    padding-right: 5px;
+    margin-right: 5px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+font-size: 20px;
+
+}
+
+.roboto-regular {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+
+  h1{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  p{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  a{
+font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+.text-center{
+  height: 35vw;
+  width: auto;
+  background-size: contain,cover;
+  text-decoration-color: white;
+}
+
+.border-bottom{
+    
+    background-image: url(https://wallpapers.com/images/hd/food-4k-3gsi5u6kjma5zkj0.jpg);
+background-size: cover;
+    color: beige;
+    filter: brightness(80%);
+    font-weight: bold;
+    
+   
+}
+
+
+
+@media (max-width: 800px){
+
+.border-bottom{
+    height: 549px;
+    width: auto;
+background-size: cover;
+
+
+}
+
+}
+
+
+
+.btn1{
+    background-color:rgb(237,200,0) ;
+    color: whitesmoke;
+}
+
+.btn2{
+    background-color: rgba(237,200,0,0.3);
+    
+    border:2px solid rgb(237,200,0);
+    color:whitesmoke;
+   font-weight: bold;
+
+}
+
+.text-container{
+    background-color: beige;
+    text-align: center;
+}
+
+@media (max-width: 800px){
+    .text-container{
+        text-align: center;
+        margin-left:30px ;
+        margin-right:30px ;
+    }
+}
+
+
+
+
+.containers3{
+    
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    
+   
+    justify-content: center;
+    
+    padding:20px;
+    padding-left: 50px;
+    padding-right: 50px;
+
+}
+
+@media (max-width: 800px){
+    .containers3{
+        width: auto;
+        display: flex;
+        flex-direction: column;
+        
+        align-items: center;
+    }
+}
+
+.child3{
+    height:320px;
+    width:320px;
+    justify-content: center;
+   
+     margin: 30px;
+
+    background-color: whitesmoke;
+    border-radius: 10px;
+    border: 0.5px solid black;
+
+}
+
+.menu-text{
+    margin: auto;
+        height:750px;
+        width: 95vw ;
+
+
+        background-color:white;
+        text-align: center;
+    }
+    
+    
+    
+    .parentmenu{
+    
+        height: auto;
+        width: 75vw;
+        
+        margin:auto;
+        margin-top: 30px;
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+        gap: 20px;
+        background-color:none;
+       
+    }
+
+    
+   
+
+    .parentofnewmenu{
+        height: 800px;
+        width: 75vw;
+        background-color:white;
+        margin: auto;
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+        gap: 30px;
+        justify-content: center;
+        margin-top: 20px;
+
+    }
+
+    @media(max-width:800px)
+{
+.parentofnewmenu{
+
+    height: 3000px;
+   display: flex;
+   flex-direction: column;
+  justify-content: center;
+
+}
+
+}   
+
+
+
+    .newmenu1>img{
+height: 225px;
+width: 235px;
+border-radius: 10px;
+margin-top: 8px;
+
+
+    }
+
+
+
+    .newmenu1{
+        border: 1px solid black;
+        border-radius: 10px;
+       width: 270px;
+       height: 320px;
+       margin: auto;
+       box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+       text-align: center;
+       
+       
+    }
+
+    .textbelowimg1{
+        font-family: "Roboto", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        padding-top: 10px;
+        font-size: 20px;
+        text-align:center;
+    }
+    .textbelowimg2{
+        
+        font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+        font-size: 18px;
+        color: brown;
+    }
+
+    
+
+    
+   
+    .exploremenu{
+        border-radius: 10px;
+        
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        
+    }
+    .exploremenu>img{
+    max-width: 90%;
+    height: auto;
+    margin-top: 20px;
+    border-radius: 10px;
+    align-content: center;
+    }
+    
+ 
+    .container-color{
+        width: 97vw;
+        height: auto;
+        margin: auto;
+        background-color:rgb(249,251,254); 
+    }
+    .container{
+        
+        height: auto;
+        background-color: rgb(249,251,254);
+       
+            
+    }
+
+  
+   .responsive{
+    height: 600px;
+    width: 97vw;
+   }
+
+    .col-5>img{
+        height: 251px;
+        width: 270px;
+        margin-top: 10%;
+        margin-left: 15%;
+    }
+
+.col-7>h1{
+    
+   margin-top: 10%;
+}
+
+.payment-options>img {
+    margin-top: 20px;
+    height: 50px;
+    width: 50px;
+    
+}
+
+.offer-img>img{
+    height: 271px;
+    width: 290px;
+}
+
+#changedivcolour{
+    margin-top: 30px;
+    background-color: white;
+}
+
+.gift-img>img{
+height: 319px;
+width: 270px;
+margin-top: 10%;
+
+}
+
+.thankyou>h1
+{
+
+    margin-top: 15%;
+}
+#changedivcolour1{
+    background-color: rgb(252,235,169);
+}
+
+
+
+.orangecontainer{
+    width: 97vw;
+    background-color:rgb(252,235,169) ;
+    margin: auto;
+}
+.container3{
+
+    width: 97vw;
+    height: 8vw;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap:50px;
+    align-items: center;
+    background-color:white;
+    margin: auto;
+}
+.Follow-us{
+    width: 97vw;
+    height: auto;
+    height: auto;
+    padding-bottom: 60px;
+    padding-top: 40px;
+    
+    text-align: center;
+    
+    
+    margin: auto;
+    
+}
+.Follow-us>h1{
+    padding-top: 20px;
+}
+
+
+.middlecontainer{
+    height: 35px;
+    width: 35px;
+   background-color: rgba(237,200,0,0.8);
+    border-radius: 50px;
+
+}
+
+.middlecontainer>img{height: 35px;
+    width: 35px;
+align-items: center;
+}
+
+.container4{
+
+    width: 97vw;
+    height: auto;
+    background-color:#0d2436;
+    margin: auto;
+    align-content: center;
+    text-align: center;
+    padding-top:30px ;
+    padding-bottom:30px ;
+}
+
+.middlecontainer1>img{
+    height: 70px;
+    width: 80px;
+   
+}
+
+.middlecontainer1{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    color: white;
+    align-items: center;
+
+    text-align: center;
+    
+}
+.middlecontainer1>h1{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+margin-top: 15px;
+    font-size: 25px;
+}
